@@ -1,0 +1,134 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body{
+    background-color: #111111;
+  }
+
+  .main_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.left span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.main_container .right ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+ul li{
+    list-style: none;
+    padding-left:10px 20px ;
+}
+  
+  .view-options {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  .view-options > button {
+    flex: 1;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .active {
+    color: blue !important;
+    border-bottom: 3px solid blue !important;
+  }
+  
+  
+  .card{
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+      background-color: #1b1b1b;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 30px;
+  }
+  
+  .row-1{
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+      box-sizing: border-box;
+  }
+  .symbol{
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 20px;
+  }
+  
+  .row-1>img{
+      height: 40px;
+  }
+  
+  .row-1>div{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .price_change_percentage_24h{
+      border-radius: 15px;
+      border: 1px solid greenyellow;
+      padding: 10px;
+      width: fit-content;
+  }
+  
+  .current_price{
+      color: greenyellow;
+      padding: 5px;
+  
+  }
+  
+  .total_volume,.market_cap,.id{
+      color: gainsboro;
+      font-weight: 900;
+  }
+  
+  #container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-inline:auto;
+  }
+  
+  .list{
+      width: 90vw;
+      justify-content: center;
+      margin-inline:auto ;
+      margin-top: 40px;
+  }
+  
+  .list-header>td{
+      border-bottom: 2px solid white ;
+      padding: 10px;
+      border-collapse: collapse;
+  }
+  
+  #list-col-1{
+      width: 15vw;
+  }
